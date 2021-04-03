@@ -1,0 +1,34 @@
+* {
+    margin: auto;
+    text-align: center;
+    font-size: 1.05em;
+}
+
+th {
+    padding: 10px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+th:hover {
+    background: lightgray;
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: lightgray;
+}
+
+td {
+    padding: 7px;
+}
+
+table {
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+}

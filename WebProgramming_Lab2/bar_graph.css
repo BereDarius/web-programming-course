@@ -1,0 +1,117 @@
+#xoy {
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    border-left: solid black 5px;
+    border-bottom: solid black 5px;
+}
+
+#bar1 {
+    position: absolute;
+    width: 100px;
+    height: 80vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 100px;
+    background: gold;
+}
+
+#bar2 {
+    position: absolute;
+    width: 100px;
+    height: 30vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 250px;
+    background: crimson;
+}
+
+#bar3 {
+    position: absolute;
+    width: 100px;
+    height: 50vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 400px;
+    background: blue;
+}
+
+#bar4 {
+    position: absolute;
+    width: 100px;
+    height: 60vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 550px;
+    background: purple;
+}
+
+#bar5 {
+    position: absolute;
+    width: 100px;
+    height: 40vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 700px;
+    background: forestgreen;
+}
+
+#bar6 {
+    position: absolute;
+    width: 100px;
+    height: 15vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 850px;
+    background: saddlebrown;
+}
+
+#bar7 {
+    position: absolute;
+    width: 100px;
+    height: 45vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 1000px;
+    background: darkblue;
+}
+
+#bar8 {
+    position: absolute;
+    width: 100px;
+    height: 35vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 1150px;
+    background: teal;
+}
+
+#bar9 {
+    position: absolute;
+    width: 100px;
+    height: 85vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 1300px;
+    background: cyan;
+}
+
+#bar10 {
+    position: absolute;
+    width: 100px;
+    height: 55vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 1450px;
+    background: deeppink;
+}
+
+#bar11 {
+    position: absolute;
+    width: 100px;
+    height: 75vh;
+    margin: 50px;
+    bottom: 70px;
+    left: 1600px;
+    background: chartreuse;
+}

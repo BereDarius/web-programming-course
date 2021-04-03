@@ -1,0 +1,44 @@
+.riseup-btn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.riseup {
+    position: relative;
+    display: inline-block;
+}
+
+.riseup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+
+.riseup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.riseup-content a:hover {
+    background-color: #ddd
+}
+
+.riseup:hover .riseup-content {
+    display: block;
+}
+
+.riseup:hover .riseup-btn {
+    background-color: #2980B9;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
