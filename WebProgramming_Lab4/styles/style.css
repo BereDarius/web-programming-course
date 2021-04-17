@@ -1,0 +1,42 @@
+#main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main-form input {
+    width: 30%;
+    height: 25px;
+}
+
+textarea {
+    width: 30%;
+    height: 100px;
+}
+
+#modal-form {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+#modal-form * {
+    text-align: center;
+    display: block;
+    width: 30%;
+    height: 25px;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#main {
+    position: absolute;
+    height: 1vh;
+    width: 1vw;
+}

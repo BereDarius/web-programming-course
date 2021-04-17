@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+</head>
+<body>
+    <form id="main-form">
+        <label for="name">Name</label>
+        <input id="name" type="text">
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <label for="password">Password</label>
+        <input id="password" type="password">
+        <label for="confirm-password">Confirm Password</label>
+        <input id="confirm-password" type="password">
+        <label for="birthday">Your Birthday</label>
+        <input id="birthday" type="date">
+        <button id="submit-main" type="button">Submit</button>
+        <label for="result">Result</label>
+        <textarea id="result"></textarea>
+    </form>
+    <div id="modal">
+        <form id="modal-form">
+            <label for="modal-studies">Studies</label>
+            <input id="modal-studies" type="text">
+            <label for="modal-hobbies">Hobbies</label>
+            <input id="modal-hobbies" type="text">
+            <label for="modal-address">Address</label>
+            <input id="modal-address" type="text">
+            <p>Gender</p>
+            <input id="modal-gender-man" name="gender" type="radio" value="man" checked>
+            <label for="modal-gender-man">Man</label>
+            <input id="modal-gender-woman" name="gender" type="radio" value="woman">
+            <label for="modal-gender-woman">Woman</label>
+            <input id="modal-gender-other" name="gender" type="radio" value="other">
+            <label for="modal-gender-other">Other</label>
+            <button id="submit-modal" type="button">Submit</button>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
